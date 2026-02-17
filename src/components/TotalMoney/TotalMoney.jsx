@@ -17,7 +17,7 @@ export default function TotalMoney({
         return <Navigate to={ROUTES.HOME} />;
     };
 
-    function calculateTotalMoney(answersList) 
+    function calculateTotalMoney(answersList) {
         const totalWastedMoney = answersList.reduce((acc, brandAnswers) => {
             const daily = Number(brandAnswers[0]);
             const months = Number(brandAnswers[1]);
