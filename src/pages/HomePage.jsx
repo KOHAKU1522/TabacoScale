@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import Introduction from "../components/Introduction/Introduction"
+import styles from "./Pages.module.css";
 
 export default function HomePage() {
   useEffect(() => {
@@ -8,8 +9,7 @@ export default function HomePage() {
 
   return (
     <>
-      <br />
-      <br />
+      <div className={styles.page}></div>
       <Introduction />
     </>
   )

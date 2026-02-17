@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { CODES } from "../codes";
 import Codes from "../components/Codes/Codes";
+import styles from "./Pages.module.css";
 
 export default function SourcePage() {
 
@@ -10,7 +11,7 @@ export default function SourcePage() {
 
   return (
     <>
-      <br />
+      <div className={styles.page}></div>
       {CODES.map((CODES, index) => (
         <Codes
           title={CODES.title}

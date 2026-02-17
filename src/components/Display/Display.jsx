@@ -42,7 +42,6 @@ export default function Display() {
 
   return (
     <>
-      <br />
       <div
         className={styles.comment}
       >{comment()}</div>

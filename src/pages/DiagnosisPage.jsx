@@ -3,6 +3,7 @@ import Question from "../components/Question/Question";
 import { QUESTIONS, ROUTES } from "../const";
 import { useEffect, useState } from "react";
 import Button from "../components/Button/Button";
+import styles from "./Pages.module.css";
 
 export default function DiagnosisPage() {
   useEffect(() => {
@@ -49,7 +50,7 @@ export default function DiagnosisPage() {
 
   return (
     <>
-      <br />
+    <div className={styles.page}></div>
       {answersList.map((answers, brandIndex) => (
         <div key={brandIndex}>
           <h3>銘柄 {brandIndex + 1}</h3>
