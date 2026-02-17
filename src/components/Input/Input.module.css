@@ -1,0 +1,19 @@
+.input {
+    border: var(--black) solid 1.5px;
+    border-radius: 5px;
+    width: 130px;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+    &.numberInput {
+        text-align: right;
+        padding: 0 10px 0 0;
+    }
+
+    &.textInput {
+        text-align: center;
+    }
+}

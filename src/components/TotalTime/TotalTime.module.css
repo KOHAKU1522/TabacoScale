@@ -1,0 +1,29 @@
+.title {
+    font-size: 20px;
+}
+
+.subTitle {
+    font-size: 18px;
+    color: var(--white);
+}
+
+.elements {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+
+.sentence {
+    color: var(--white);
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    padding: 0 20px;
+}
+
+.img {
+    width: 240px;
+    height: 240px;
+}

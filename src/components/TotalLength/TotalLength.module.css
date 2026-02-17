@@ -1,0 +1,38 @@
+.title {
+    font-size: 20px;
+}
+
+.subTitle {
+    font-size: 18px;
+    color: var(--white);
+}
+
+.elements {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 5px;
+}
+
+.sentence {
+    color: var(--white);
+    font-weight: bold;
+    text-align: center;
+    font-size: 13px;
+}
+
+.imgFolder {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    align-items: end;
+    gap: 5px;
+}
+
+.tabakoImage {
+    width: auto;
+}
+
+.img {
+    width: auto;
+}

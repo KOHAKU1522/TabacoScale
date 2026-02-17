@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: unset;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.codeFolder {
+    text-align: left;
+    margin: 0 0 15px;
+}
+
+.codeTitle {
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+    background: var(--darkBlack);
+    color: var(--white);
+    padding: 2px 10px;
+    margin: 0;
+}
+
+.codeSentence {
+    border-radius: 8px;
+    font-size: 10px;
+    background: var(--darkBlack);
+    color: var(--white);
+    padding: 2px 10px;
+    margin: 0;
+}

@@ -1,0 +1,9 @@
+.background {
+    width: auto;
+    height: 85%;
+    opacity: 0.2;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+}

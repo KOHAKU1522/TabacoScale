@@ -1,0 +1,14 @@
+.comment {
+    color: var(--white);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.content {
+    background-color: var(--black);
+    border: 2px solid var(--white);
+    border-radius: 10px;
+    padding: 20px;
+}
