@@ -6,7 +6,7 @@
 
 .logoImg {
     width: auto;
-    height: 28px;
+    height: 33px;
     position: fixed;
     left: 0;
     z-index: 10;
@@ -43,7 +43,7 @@ li:not(:last-child)::after {
     text-decoration: none;
     color: var(--navy);
     font-weight: bold;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .link:hover {
