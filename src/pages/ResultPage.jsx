@@ -12,7 +12,7 @@ export default function ResultPage() {
 
   return (
     <>
-      <div className={styles.page}></div>
+      <div className={styles.page}> </div>
       <Display></Display>
     </>
   );

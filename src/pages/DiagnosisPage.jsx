@@ -50,7 +50,7 @@ export default function DiagnosisPage() {
 
   return (
     <>
-    <div className={styles.page}></div>
+    <div className={styles.page}> </div>
       {answersList.map((answers, brandIndex) => (
         <div key={brandIndex}>
           <h3>銘柄 {brandIndex + 1}</h3>

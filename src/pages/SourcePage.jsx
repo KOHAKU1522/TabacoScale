@@ -11,7 +11,7 @@ export default function SourcePage() {
 
   return (
     <>
-      <div className={styles.page}></div>
+      <div className={styles.page}> </div>
       {CODES.map((CODES, index) => (
         <Codes
           title={CODES.title}

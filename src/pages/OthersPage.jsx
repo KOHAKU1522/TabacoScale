@@ -11,7 +11,7 @@ export default function OthersPage() {
 
   return (
     <>
-      <div className={styles.page}></div>
+      <div className={styles.page}> </div>
       <h4>
         他の開発したアプリケーション一覧です。<br />
         勉強がてら制作したのでクオリティは微妙です

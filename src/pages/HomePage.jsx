@@ -9,7 +9,7 @@ export default function HomePage() {
 
   return (
     <>
-      <div className={styles.page}></div>
+      <div className={styles.page}> </div>
       <Introduction />
     </>
   )
