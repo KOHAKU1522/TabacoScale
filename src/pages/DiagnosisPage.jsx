@@ -72,7 +72,7 @@ export default function DiagnosisPage() {
             </Question>
           ))}
         </div>
-      ))};
+      ))}
 
       <Button
         onClick={() => handleAddBrand()}

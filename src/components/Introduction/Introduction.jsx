@@ -23,7 +23,9 @@ export default function Introduction() {
 
 数字で見ると、意外と驚くかもしれません。`}
                 </pre>
-                <Link className={styles.link} to={ROUTES.DIAGNOSIS}>さっそく診断を開始する</Link>
+                <Link className={styles.link} to={ROUTES.DIAGNOSIS}
+                style={{ fontSize: "14px" }}
+                >さっそく診断を開始する</Link>
             </div>
         </>
     )

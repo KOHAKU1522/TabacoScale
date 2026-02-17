@@ -4,6 +4,7 @@
     background-color: var(--white);
     font-weight: bold;
     text-align: center;
+    color: var(--darkBlack);
     
     &.hogeButton {
         margin: 0;

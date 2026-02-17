@@ -8,13 +8,14 @@
 
 .title {
     color: var(--white);
-    font-size: 33px;
+    font-size: 24px;
 }
 
 .text {
     color: var(--white);
     font-weight: bold;
     padding: 0 0 8px;
+    font-size: 11px;
 }
 
 .link {
